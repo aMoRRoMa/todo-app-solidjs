@@ -1,7 +1,7 @@
 import { batch, createEffect, createSignal } from 'solid-js';
 import { nanoid } from 'nanoid';
 
-import { addTodo, Status } from '../../store/todos';
+import { addTodo, Status } from '../../resources/todos';
 
 const AddTodo = () => {
   const [title, setTitle] = createSignal('');

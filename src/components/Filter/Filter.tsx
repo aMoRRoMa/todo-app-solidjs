@@ -1,6 +1,6 @@
 import { createSelector, For } from 'solid-js';
 
-import { Filter as options, filter, setFilter } from '../../store/filter';
+import { Filter as options, filter, setFilter } from '../../signals/filter';
 
 const Filter = () => {
   const isSelected = createSelector(filter);

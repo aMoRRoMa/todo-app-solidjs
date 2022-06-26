@@ -8,8 +8,10 @@ const App = () => {
   return (
     <div class={styles.App}>
       <h1>Simple Todos Example</h1>
-      <TodoList />
       <Filter />
+      <TodoList />
+      <br />
+      <br />
       <AddTodo />
     </div>
   );

@@ -1,6 +1,7 @@
 import { For, Show, Suspense } from 'solid-js';
 
-import { filteredTodos, TodoItem, todos, toggleTodo } from '../../store/todos';
+import { TodoItem, todos, toggleTodo } from '../../resources/todos';
+import filteredTodos from '../../signals/filteredTodos';
 
 import styles from './TodoList.module.css';
 
