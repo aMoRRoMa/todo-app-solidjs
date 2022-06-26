@@ -1,6 +1,6 @@
 import { TodoItem, todos } from '../resources/todos';
 
-import { filter, Filter } from './filter';
+import { filter, Filter } from '../signals/filter';
 import { createMemo } from 'solid-js';
 
 const getFilteredTodos = (todos: TodoItem[], filter: Filter) => {
